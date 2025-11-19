@@ -1,0 +1,23 @@
+<h1>Goku</h1>
+
+<dl>
+  <dt>Nombre:</dt>
+  <dd>{{ nombre }}</dd>
+
+  <dt>Edad:</dt>
+  <dd>{{ edad }}</dd>
+
+  <dt>Método:</dt>
+  <dd>{{ getDescripcion() }}</dd>
+
+  <dt>Capitalizado:</dt>
+  <dd>{{ nombrreCapitalizado }}</dd>
+</dl>
+
+<button class="btn btn-success" (click)="nombrreCapitalizado">
+  Cambiar nombre
+</button>
+
+<button class="btn btn-primary" (click)="getDescripcion()">
+  Crear descripción
+</button>
